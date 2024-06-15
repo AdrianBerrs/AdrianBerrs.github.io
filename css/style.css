@@ -1,41 +1,16 @@
-
-/*=====================================================================
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ button
-05/ banner
-06/ breadcrumb
-07/ about
-08/ team
-09/ project  
-11/ team 
-12/ blog 
-13/ video  
-14/ features  
-15/ career  
-16/ contact 
-17/ footer
-
-=====================================================================*/
-/*----------------------------------------------------*/
-/*font Variables*/
-/*Color Variables*/
 /*=================== fonts ====================*/
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
-/*----------------------------------------------------*/
 
+.profile_photo{
+  width: 600px;
+  height: 600px;
+}
 
 .list {
   list-style: none;
   margin: 0px;
   padding: 0px; 
-
 }
 
 a {
@@ -148,7 +123,7 @@ button:focus {
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #fff; }
+        color: #ffffff; }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -289,8 +264,6 @@ button:focus {
       margin-top: -6px;
       right: 20px; }
 
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 /* Home Banner Area css
 ============================================================================================ */
 .blog_id .working{
@@ -317,7 +290,6 @@ button:focus {
 .border_line_black1 {
   margin: 10px 0px;
   background:rgb(255, 255, 255);
-  /* width: 50%; */
   margin-left: 0%;
   margin-right: 80%;
   height: 1px;
@@ -332,12 +304,8 @@ body{
 .home_banner_area {
   position: relative;
   z-index: 1;
-  /* background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); */
-  /* background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%); */
-  background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
-  margin-bottom: 200px; }
+  background-image: linear-gradient( rgb(6, 31, 14) 11.4%, rgb(18, 18, 18) 70.2% );
+  margin-bottom: 100px; }
   .home_banner_area .box_1620 {
     min-height: 700px;
     border-radius: 12px;
@@ -1230,8 +1198,8 @@ body{
     color:#a4a4a4;
     font-size:21px;
     font-weight:700px;
-    font-family: Roboto Condensed', 'Lucida Sans Typewriter';
-    line-height: 27px; }
+    font-family: 'Roboto Condensed', 'Lucida Sans Typewriter';
+    line-height: 27px }
     .sample-text-area p b {
       font-weight: bold;
       color: #766dff; }
@@ -2567,7 +2535,7 @@ h6 {
   border-radius: 5px; }
 .wel_item:hover {
   text-align: center;
-  border: 1px  solid  #86e7ff;
+  border: 1px  solid  #86ff94;
   padding: 20px 20px;
   border-radius: 14px;
   background-color: #222222; 
@@ -2580,7 +2548,7 @@ h6 {
     
     /* padding-left:30%; */
     font-size: 45px;
-    background: linear-gradient(to right, #766dff 0%, #86e7ff 70%);
+    background: linear-gradient(to right, #0c8055 0%, #84fba9 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
 
@@ -2840,7 +2808,7 @@ h6 {
 .personal_text h3 {
   color: #cccccc; 
   font-size: 48px;
-  font-family: "Licorice";
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   text-transform: capitalize;
   margin-bottom: 15px; }
 .personal_text p {
@@ -2896,7 +2864,7 @@ h6 {
        border-radius: 8px;
         /* padding-left:30%; */
         font-size: 45px;
-        background: linear-gradient(to right, #766dff 0%, #86e7ff 70%);
+        background: linear-gradient(to right, #0c8055 0%, #84fba9 70%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
       /* line-height: 53px;
@@ -3002,7 +2970,7 @@ h6 {
 
 .wel_item1:hover {
   text-align: center;
-  border: 1px  solid  #86e7ff;
+  border: 1px  solid  #86ffa6;
   padding: 20px 20px;
   border-radius: 14px;
   background-color: #222222; 
@@ -3023,7 +2991,7 @@ border-radius: 5px;
   
   /* padding-left:30%; */
   font-size: 45px;
-  background: linear-gradient(to right, #766dff 0%, #86e7ff 70%);
+  background: linear-gradient(to right, #0c8055 0%, #84fba9 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
