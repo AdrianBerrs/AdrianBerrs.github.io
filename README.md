@@ -1,7 +1,38 @@
-Hi, This is the Personal Portfolio site for Hemant Joshi, built with Bootstrap and a lot of love
+### Description
 
-DEMO: https://sleepy-engelbart-41ce4b.netlify.app/
+A simple portfolio template for developer/designers built with React. 
 
-**Feel free to use the code, do remember to star as you do and in case of any issue feel free to ping me out or open a issue over here.**
+### [live preview](https://ubaimutl.github.io/react-portfolio/)
 
-Thank You
+[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+
+### Features
+
+- Fully Responsive
+- Multi-Page Layout
+- Contact Form With EmailJs
+- React-Bootstrap
+- Edit Content From One Place
+
+### Setup
+
+Get the code
+
+<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
+ 
+Install required dependencies
+
+<pre>yarn install</pre>
+
+
+Start the server
+
+<pre>yarn start</pre>
+
+### More
+
+Modify pages content in  `src/content_option.js`.
+
+### Thanks
+
+If you like this portfolio template don't forget give it a ⭐ 
