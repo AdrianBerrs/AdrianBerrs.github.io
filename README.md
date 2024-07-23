@@ -1,38 +1,32 @@
-### Description
+# Bootstrap4Resume
 
-A simple portfolio template for developer/designers built with React. 
+A single-page static website with a fixed sidebar, smooth scrolling navigation, and content sections. Great for an elegant resume or portfolio. Mobile-friendly. 
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+## Introduction
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+This is a simple yet elegant website created with the help of a free Bootstrap template. It's fully responsive and easy to adapt for your own purposes. You just need some skills in HTML, Bootstrap 4, and CSS3 to personalize it. A working contact form is included. 
 
-### Features
+## Live Preview
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+<p><a href="https://bootstrap4resume.deployonfriday.net/" target="_blank"> <img src="https://github.com/DrSavvina/Bootstrap4Resume/blob/master/preview1.png"></a></p>
 
-### Setup
+## Technologies Used
 
-Get the code
+* HTML5 & CSS3
+* Bootstrap 4
+* JavaScript
+* jQuery JavaScript Library v3.2.1
+* Font Awesome
+* Devicon
+* Google Fonts
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
+## Sources
 
-<pre>yarn install</pre>
+* https://github.com/BlackrockDigital/startbootstrap-resume
+* https://fontawesome.com
+* http://konpa.github.io/devicon/
+* https://formspree.io/
 
+## How to Use it
 
-Start the server
-
-<pre>yarn start</pre>
-
-### More
-
-Modify pages content in  `src/content_option.js`.
-
-### Thanks
-
-If you like this portfolio template don't forget give it a ⭐ 
+After downloading, you can edit the HTML and CSS files to make the changes you want and personalize the template. Check your changes opening the index.html in your browser.
