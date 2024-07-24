@@ -3,7 +3,7 @@ body {
   font-family: "Barlow Condensed", sans-serif;
   color: #242424;
   width: 100%;
-  background-color: white;
+  background-color: rgb(244, 244, 244);
   text-align: center;
   font-size: 1.4rem;
 }
@@ -20,7 +20,7 @@ h6,
 .fa-user-tag,
 .list-inline-item i:hover,
 .linkedin-link a {
-  color: #1874cd;
+  color: #269941e0;
 }
 
 h2,
@@ -63,8 +63,12 @@ a:focus {
 #sideNav .navbar-nav .nav-item a:hover,
 .nav-link a:hover,
 a {
-  color: #add8e6;
+  color: #a3ff3a;
   transition: all 0.2s ease-in-out;
+}
+
+#linkedinjob{
+  color: #3084f9;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -98,11 +102,11 @@ a {
 .btn {
   background-image: linear-gradient(
     to right,
-    #bfefff,
-    #8dd2f3,
-    #5fb4e8,
-    #3594dc,
-    #1874cd
+    #8fe39e,
+    #8df39b,
+    #5fe871,
+    #35dc46,
+    #18cd3c
   );
 }
 
@@ -120,7 +124,7 @@ a {
 
 button:focus,
 button:active {
-  outline: solid #add8e6 2px;
+  outline: solid #e6dbad 2px;
 }
 
 @media (min-width: 320px) and (max-width: 992px) {
@@ -133,7 +137,7 @@ button:active {
   .mobile-img {
     height: 150px;
     width: 150px;
-    border: solid whitesmoke 5px;
+    border: solid rgb(245, 245, 245) 5px;
     border-radius: 100%;
   }
 
@@ -211,7 +215,7 @@ button:active {
  .navbar-brand .img-profile {
     max-width: 12rem;
     max-height: 12rem;
-    border: 0.3rem solid #1873cde0;
+    border: 0.3rem solid #269941e0;
     border-radius: 100%;
   }
 .navbar-collapse {
