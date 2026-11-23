@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Currículo de Adrian Santos Bernardo, Product Owner com foco em documentação técnica, desenho de soluções e IA aplicada a Produto.">
+    <title>Adrian Santos Bernardo | Currículo</title>
+    <style>
+        :root {
+            --paper: #faf8f5;
+            --ink: #29272a;
+            --muted: #514a4b;
+            --accent: #842e40;
+            --line: #dfd3d0;
+            --display: "Avenir Next", system-ui, sans-serif;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--paper);
+            color: var(--ink);
+            font: 1rem/1.5 system-ui, sans-serif;
+        }
+
+        h1, h2, h3, p, ul {
+            margin: 0;
+        }
+
+        h1, h2, h3 {
+            font-family: var(--display);
+            font-weight: 650;
+            line-height: 1.2;
+        }
+
+        a {
+            color: var(--accent);
+            text-underline-offset: 0.2em;
+        }
+
+        a:focus-visible, button:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 4px;
+        }
+
+        .toolbar, .resume {
+            width: min(54rem, calc(100% - 2rem));
+            margin-inline: auto;
+        }
+
+        .toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem 1rem;
+            padding-block: 1rem;
+        }
+
+        .print-button {
+            min-height: 2.75rem;
+            padding: 0.45rem 0.95rem;
+            border: 1px solid var(--accent);
+            border-radius: 0.45rem;
+            background: var(--accent);
+            color: white;
+            font: inherit;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .print-button:hover {
+            background: #662232;
+        }
+
+        .resume {
+            margin-bottom: 2rem;
+            padding: clamp(1.15rem, 5vw, 3.5rem);
+            border: 1px solid var(--line);
+            border-top: 4px solid var(--accent);
+            border-radius: 0.6rem;
+            background: white;
+        }
+
+        h1 {
+            font-size: clamp(1.85rem, 5.5vw, 2.9rem);
+            letter-spacing: -0.025em;
+        }
+
+        .profile-title {
+            margin-top: 0.35rem;
+            color: var(--accent);
+            font-size: 1.15rem;
+            font-weight: 650;
+        }
+
+        .contacts {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 1rem;
+            margin-top: 0.65rem;
+            color: var(--muted);
+            font-size: 0.9rem;
+            font-style: normal;
+            overflow-wrap: anywhere;
+        }
+
+        section {
+            margin-top: 1.45rem;
+        }
+
+        h2 {
+            margin-bottom: 0.6rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 1px solid var(--line);
+            color: var(--accent);
+            font-size: 1.22rem;
+        }
+
+        h3 {
+            font-size: 1.05rem;
+        }
+
+        .entry + .entry {
+            margin-top: 0.95rem;
+        }
+
+        .entry-heading {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 0.15rem 0.8rem;
+            align-items: baseline;
+        }
+
+        .dates {
+            flex-shrink: 0;
+            color: var(--muted);
+            font-size: 0.88rem;
+        }
+
+        .entry ul {
+            margin-top: 0.25rem;
+            padding-left: 1.15em;
+        }
+
+        .entry li + li,
+        .skills li + li {
+            margin-top: 0.15rem;
+        }
+
+        .skills,
+        .courses {
+            padding: 0;
+            list-style: none;
+        }
+
+        .courses {
+            columns: 18rem;
+            column-gap: 2rem;
+        }
+
+        .courses li {
+            padding-bottom: 0.25rem;
+            break-inside: avoid;
+        }
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        @media print {
+            body {
+                background: white;
+                color: #111;
+                font-size: 9.5pt;
+                line-height: 1.35;
+            }
+
+            .toolbar {
+                display: none;
+            }
+
+            .resume {
+                width: auto;
+                margin: 0;
+                padding: 12mm 14mm;
+                border: 0;
+                border-radius: 0;
+            }
+
+            h1 {
+                font-size: 23pt;
+            }
+
+            .profile-title {
+                margin-top: 2pt;
+                font-size: 11pt;
+            }
+
+            .contacts {
+                margin-top: 3pt;
+                font-size: 9pt;
+                column-gap: 9pt;
+            }
+
+            section {
+                margin-top: 9pt;
+            }
+
+            h2 {
+                margin-bottom: 3pt;
+                padding-bottom: 2pt;
+                font-size: 12pt;
+                break-after: avoid;
+            }
+
+            h3 {
+                font-size: 10pt;
+            }
+
+            .entry {
+                break-inside: avoid;
+            }
+
+            .entry + .entry {
+                margin-top: 5pt;
+            }
+
+            .dates {
+                font-size: 9pt;
+            }
+
+            .courses {
+                columns: auto;
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 2pt 12pt;
+            }
+
+            .courses li {
+                padding-bottom: 0;
+            }
+
+            a {
+                color: inherit;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="toolbar" aria-label="Ações do currículo">
+        <a href="index.html">Voltar ao portfólio</a>
+        <button class="print-button" type="button" id="print-resume" hidden>Imprimir ou salvar em PDF</button>
+    </nav>
+
+    <main class="resume">
+        <header>
+            <h1>Adrian Santos Bernardo</h1>
+            <p class="profile-title">Product Owner</p>
+            <address class="contacts">
+                <span>Cachoeirinha, RS</span>
+                <a href="mailto:adrian_santosbernardo@outlook.com">adrian_santosbernardo@<wbr>outlook.com</a>
+                <a href="tel:+5551995018304">(51) 99501-8304</a>
+                <a href="https://www.linkedin.com/in/adrian-santos-bernardo-po/">LinkedIn</a>
+                <a href="https://adrianberrs.github.io/">Portfólio</a>
+            </address>
+        </header>
+
+        <section aria-labelledby="sobre">
+            <h2 id="sobre">Resumo profissional</h2>
+            <p>Product Owner com formação em Análise e Desenvolvimento de Sistemas. Meu foco é desenhar soluções, documentar requisitos e regras de negócio e trabalhar com TI ao longo da implementação. Também desenvolvo ferramentas internas e assistentes de IA para apoiar atividades do time de Produto.</p>
+        </section>
+
+        <section aria-labelledby="experiencia">
+            <h2 id="experiencia">Experiência profissional</h2>
+
+            <article class="entry">
+                <header class="entry-heading">
+                    <h3>Product Owner | Ticket Log (Edenred)</h3>
+                    <p class="dates"><time datetime="2024-06">Jun. 2024</time> – atual</p>
+                </header>
+                <ul>
+                    <li>Detalho requisitos, regras de negócio e histórias de usuário para jornadas web e mobile. Trabalho com TI na definição das soluções e uso o Azure DevOps para organizar as prioridades do backlog.</li>
+                    <li>Criei um hub de assistentes usado pelo time de Produto para preparar escopos, redigir comunicados para stakeholders e analisar documentos e funcionalidades.</li>
+                    <li>Desenvolvi a base do hub em HTML, CSS e JavaScript, defini instruções, guardrails e formatos de resposta e testei os assistentes com casos reais. Usei GitHub Copilot e Claude no desenvolvimento de interfaces e automações.</li>
+                </ul>
+            </article>
+
+            <article class="entry">
+                <header class="entry-heading">
+                    <h3>Analista de Produto | TargetIT</h3>
+                    <p class="dates"><time datetime="2023-05">Mai. 2023</time> – <time datetime="2024-05">mai. 2024</time></p>
+                </header>
+                <ul>
+                    <li>Analisei regras de negócio de órgãos fiscais e levantei requisitos e casos de uso com clientes. Produzi documentação técnica, fluxogramas e protótipos no Figma para discutir as propostas com stakeholders.</li>
+                    <li>Acompanhei integrações com ERP e usei o Azure DevOps para organizar demandas, sprints e atividades de produto.</li>
+                </ul>
+            </article>
+
+            <article class="entry">
+                <header class="entry-heading">
+                    <h3>Analista de Sistemas | SR Consulting</h3>
+                    <p class="dates"><time datetime="2022-09">Set. 2022</time> – <time datetime="2023-02">fev. 2023</time></p>
+                </header>
+                <ul>
+                    <li>Analisei demandas no Salesforce Sales Cloud e trabalhei com relatórios gerenciais. Participei de Product Discovery e detalhei tarefas e documentação para as sprints.</li>
+                    <li>Organizei atividades do backlog no Jira e trabalhei com documentação no Confluence. Na etapa de QA, conferi se as alterações no CRM correspondiam ao que havia sido solicitado.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section aria-labelledby="formacao">
+            <h2 id="formacao">Formação</h2>
+            <div class="entry-heading">
+                <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas | Unisinos</h3>
+                <p class="dates"><time datetime="2021">2021</time> – <time datetime="2024">2024</time></p>
+            </div>
+        </section>
+
+        <section aria-labelledby="habilidades">
+            <h2 id="habilidades">Habilidades</h2>
+            <ul class="skills" role="list">
+                <li><strong>Produto:</strong> documentação técnica, requisitos, desenho de soluções, Product Discovery, Design Thinking, gestão de backlog, Scrum e Kanban.</li>
+                <li><strong>IA e automação:</strong> criação de assistentes, instruções e guardrails, estruturação de respostas, validação com casos reais e automação de processos.</li>
+                <li><strong>Tecnologia e ferramentas:</strong> HTML, CSS, JavaScript, Java, Spring Boot, SQL, UML, GitHub Copilot, Claude, Salesforce, Figma, Azure DevOps, Jira, Confluence e Notion.</li>
+                <li><strong>Idioma:</strong> inglês (B1.1).</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="cursos">
+            <h2 id="cursos">Cursos e certificações</h2>
+            <ul class="courses" role="list">
+                <li>Inteligência Artificial: Eleve sua Produtividade e Acelere sua Carreira (Escola Conquer)</li>
+                <li>SQL para Análise de Dados com BigQuery (Udemy, 2024)</li>
+                <li>Scrum Professional Fundamentals Certificate (CertiProf, 2023)</li>
+                <li>Criação de Dashboards com Google Data Studio (Udemy, 2023)</li>
+                <li>Workshop Empatia e Escuta (Vivian Laube, 2022)</li>
+                <li>Tratativas e comunicação com clientes e fornecedores internos (TMSA, 2022)</li>
+                <li>Excel Avançado e Power BI (Udemy, 2022)</li>
+                <li>Formação em Liderança (Escola Conquer)</li>
+                <li>Dominando a Escuta Ativa (Udemy)</li>
+            </ul>
+        </section>
+    </main>
+
+    <script>
+        const printButton = document.getElementById("print-resume");
+        printButton.addEventListener("click", () => window.print());
+        printButton.hidden = false;
+    </script>
+</body>
+</html>
